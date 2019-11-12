@@ -27,14 +27,14 @@
         </thead>
         <tbody>
             <tr>
-                <td>{{ sum_both_charge }}</td>
+                <td>{{ sum_service_charge.service_charge__sum |addition:sum_product_charge.charge__sum|intcomma }}</td>
             </tr>
         </tbody>
     </table>
     </div>
 
 <div class="row">
-        <h2 style="padding-left: 15Px">Services Information</h2>
+    <h2 style="padding-left: 15Px">Services Information</h2>
     </div>
     <div class="row">
         <table class="table table-striped table-bordered table-hover">
