@@ -162,7 +162,7 @@ def summary(request, pk):
                                                     'products': products,
                                                     'services': services,
                                                     'sum_service_charge': sum_service_charge,
-                                                    'sum_product_charge': sum_product_charge,})
+                                                    'sum_product_charge': sum_product_charge})
 
 
 # List at the end of the views.py
